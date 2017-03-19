@@ -1,0 +1,11 @@
+[package]
+name = "vim_plugin"
+version = "0.1.0"
+authors = ["João Veiga <styluss@gmail.com>"]
+
+[dependencies]
+rustc-serialize = "0.3"
+
+[lib]
+name='mylib'
+crate-type=['cdylib']
